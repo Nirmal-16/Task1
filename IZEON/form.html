@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <h3><u>Sample Output :</u></h3><br>
+    <h2>Figure 1.HTML form for user input</h2><br>
+    <p>BCS350 Assignment 3 - student Name</p><br>
+    <h2>Create Your Profile</h2><br>
+    <label for="firstname">First Name : </label>
+    <input type="text"><br>
+    <label for="lastname">Last Name : </label>
+    <input type="text"><br>
+    <label for="email">Email : </label>
+    <input type="email"><br>
+    <label for="class">Class Standing : </label>
+    <input list="classes" name="class" id="class" >
+    <datalist id="classes" height="300px">
+        <option value="Freshman">
+        <option value="Experienced">
+    </datalist>
+    <br>
+<label for="school">School</label>
+    <input type="radio" name="school">School of arts & science <br>
+
+    <input type="radio" name="school">School of business <br>
+    <input type="radio" name="school">School of engineering technology <br>
+    <input type="radio" name="school">School of health sciences <br>
+<label for="extra">extra</label>
+<input type="checkbox">veteran <br>
+<input type="checkbox">transfer student <br>
+<input type="checkbox">international student <br>
+<label for="pro">program and other information you like to share</label>
+<input type="textarea"> <br>
+<label for="upload">upload your profile photo(png,jpg,gif)</label>
+<input type="file"> <br>
+<input type="submit">
+<input type="reset">
+
+
+
+</body>
+</html>
